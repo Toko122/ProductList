@@ -48,7 +48,7 @@ const Popup = ({ selectedProducts, onClose }) => {
             </div>
           </div>
 
-          <button className="w-full py-2 rounded-[20px] sm:px-24 px-14 bg-red-600 flex justify-center items-center sm:text-[16px] text-[14px] text-white font-semibold">
+          <button className="w-full py-2 rounded-[20px] sm:px-24 px-14 bg-red-600 flex justify-center items-center sm:text-[16px] text-[14px] text-white font-semibold cursor-pointer hover:bg-red-700 transition duration-400">
             Start New Order
           </button>
         </div>
