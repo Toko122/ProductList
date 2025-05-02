@@ -8,7 +8,7 @@ const Popup = ({ selectedProducts, onClose }) => {
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
-      <div className="bg-white px-8 py-6 flex flex-col gap-4 justify-start rounded-md relative w-[600px]">
+      <div className="bg-white px-8 py-6 flex flex-col gap-4 justify-start rounded-md relative w-[600px] overflow-scroll">
         
         <button onClick={onClose} className="absolute top-2 right-4 text-2xl text-gray-400 hover:text-red-500 font-bold">
           ×
