@@ -14,7 +14,7 @@ const Popup = ({ selectedProducts, onClose }) => {
           ×
         </button>
 
-        <div className="grid grid-cols-2 gap-4 items-start text-center w-full">
+        <div className="flex flex-col gap-4 items-start text-center w-full">
           <img src="/assets/images/icon-order-confirmed.svg" alt="checked" className="w-[50px]" />
 
           <div className="flex flex-col gap-[6px] w-full">
@@ -23,7 +23,7 @@ const Popup = ({ selectedProducts, onClose }) => {
           </div>
 
           <div className="bg-[#f0e1ca] flex justify-start items-center py-4 px-6 rounded w-full">
-            <div className="flex flex-col gap-6 w-full">
+            <div className="grid grid-cols-2 gap-6 w-full">
             {
                 selectedProducts.length > 0 ? (
                     selectedProducts.map((product,index) => (
