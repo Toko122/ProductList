@@ -14,7 +14,7 @@ const Popup = ({ selectedProducts, onClose }) => {
           ×
         </button>
 
-        <div className="flex flex-col gap-4 items-start text-center w-full">
+        <div className="grid grid-cols-2 gap-4 items-start text-center w-full">
           <img src="/assets/images/icon-order-confirmed.svg" alt="checked" className="w-[50px]" />
 
           <div className="flex flex-col gap-[6px] w-full">
