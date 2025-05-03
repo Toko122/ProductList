@@ -115,7 +115,7 @@ export const Home = () => {
                           <span className='font-semibold'>{product.name}</span>
                           <div className='flex gap-4 w-full'>
                             <span className='text-red-500 font-semibold'>{count}x</span>
-                            <span className='text-[#a9a9a9]'>${product.price}</span>
+                            <span className='text-[#a9a9a9]'>${product.price}.toFixed(2)</span>
                             <span className='text-[#a9a9a9]'>${(product.price * count).toFixed(2)}</span>
                           </div>
                         </div>
